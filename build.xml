@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ActividadesClases" default="test" basedir=".">
+  
+  <!-- Configuración de propiedades para las ubicaciones de los directorios -->
+  <property name="src.dir" value="src"/>
+  <property name="test.dir" value="test/pruebasUnitarias"/>
+  <property name="build.dir" value="build"/>
+  <property name="classes.dir" value="${build.dir}/classes"/>
+  <property name="test.classes.dir" value="${build.dir}/test-classes"/> <!-- Directorio para clases de prueba -->
+  <property name="lib.dir" value="lib"/>
+  <property name="junit.jar" value="${lib.dir}/junit-4.13.2.jar"/>
+  <property name="hamcrest.jar" value="${lib.dir}/hamcrest-core-1.3.jar"/>
+
+  <!-- Definición del classpath incluyendo las librerías y directorios de clases -->
+  <path id="classpath">
+    <fileset dir="${lib.dir}" includes="*.jar"/>
+    <pathelement path="${classes.dir}"/>
+    <pathelement path="${test.classes.dir}"/> <!-- Incluir directorio de clases de prueba en el classpath -->
+  </path>
+
+  <!-- Compilación de los archivos .java del directorio src -->
+  <target name="compile" description="Compila los archivos .java a .class">
+    <mkdir dir="${classes.dir}"/>
+    <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false">
+      <classpath refid="classpath"/>
+    </javac>
+  </target>
+
+  <!-- Compilación de los archivos .java de test -->
+  <target name="compile-tests" depends="compile" description="Compiles test classes">
+    <mkdir dir="${test.classes.dir}"/> <!-- Crear directorio para clases de prueba -->
+    <javac srcdir="${test.dir}" destdir="${test.classes.dir}" includeantruntime="false"> <!-- Compilar al directorio de clases de prueba -->
+        <classpath refid="classpath"/>
+    </javac>
+  </target>
+
+  <!-- Ejecución de pruebas unitarias con JUnit -->
+  <target name="test" depends="compile-tests" description="Runs unit tests">
+    <junit printsummary="yes" haltonfailure="yes">
+        <classpath refid="classpath"/> <!-- Usar el classpath definido -->
+        <formatter type="brief" usefile="false"/>
+        <batchtest fork="yes" todir="${build.dir}/test-reports">
+            <fileset dir="${test.classes.dir}" includes="**/*Test.class"/> <!-- Usar el directorio de clases de prueba -->
+        </batchtest>
+    </junit>
+  </target>
+
+  <!-- Limpia los directorios de build -->
+  <target name="clean" description="Limpia los directorios de build">
+    <delete dir="${build.dir}"/>
+  </target>
+
+</project>
