@@ -1,0 +1,37 @@
+Nombre                                     Edad  Sexo                         Correo       Celular                        Carrera Ciclo
+============================================================================================================================================
+ALBERTO MIRANDA ALESSANDRO MINTOR            23     F      estudiante1@correo.edu.pe     968958233         Ingeniería Electrónica     3
+AYLAS LOPEZ ALVARO DAVID                     25     M      estudiante2@correo.edu.pe     921423086         Ingeniería Electrónica    10
+BRICEÑO CASTILLO NARDA MILENKA               24     F      estudiante3@correo.edu.pe     955247218         Ingeniería de Sistemas    10
+CARRASCO VILLOSALDA RONALD GUSTAVO           20     F      estudiante4@correo.edu.pe     917834436         Ingeniería Electrónica     8
+DE LA CRUZ GIL SEBASTIAN JHARDEL             21     F      estudiante5@correo.edu.pe     963711880         Ingeniería Electrónica     3
+DE LA CRUZ RAFAEL RUT ELIZABET               18     M      estudiante6@correo.edu.pe     914835950          Ingeniería Industrial     4
+FIGUEROA MAGALLANES DIEGO ISMAEL             25     F      estudiante7@correo.edu.pe     966315294         Ingeniería de Sistemas     6
+GALLARDO RIOS MILAGROS MIRELLA               21     M      estudiante8@correo.edu.pe     990855806         Ingeniería de Sistemas     9
+GARRO RAMIREZ YORCH STEVE                    21     M      estudiante9@correo.edu.pe     917698122         Ingeniería Electrónica     9
+HERNANDEZ ACUÑA RICK PARIS FABIAN            22     F     estudiante10@correo.edu.pe     989907555         Ingeniería Electrónica     7
+HILARIO VERA JACK JEREMY                     23     M     estudiante11@correo.edu.pe     936907547         Ingeniería Electrónica     2
+HUAMACTO ROBLES JIMMY LEONARDO SEBASTIAN     22     F     estudiante12@correo.edu.pe     942127736          Ingeniería Industrial     1
+HUANCAS FLORES ZULEIKA YANIRA                19     F     estudiante13@correo.edu.pe     972712622         Ingeniería de Sistemas     9
+IZQUIERDO MELGAREJO STALYN SCLEDYN           19     F     estudiante14@correo.edu.pe     932836891         Ingeniería Electrónica    10
+LAZO EUGENIO NIKOLL KARIN                    24     F     estudiante15@correo.edu.pe     979429337          Ingeniería Industrial     2
+LLAMOCTANTA CARLOS ALEJANDRA CAMILA          19     M     estudiante16@correo.edu.pe     999967018          Ingeniería Industrial     8
+LOPEZ ZAMORA ZAMMER MAKEY ABELARDO           21     F     estudiante17@correo.edu.pe     964440196         Ingeniería de Sistemas    10
+MACAVILCA VEGA TIAGO YURIEL                  24     M     estudiante18@correo.edu.pe     976152710         Ingeniería de Sistemas     5
+NIETO PAZ LUIS ANGEL                         18     M     estudiante19@correo.edu.pe     939209901          Ingeniería Industrial     5
+ÑOPO ARANA JOSE FRANCISCO                    25     F     estudiante20@correo.edu.pe     917910874          Ingeniería Industrial     6
+PASTOR RODRIGUEZ DANIEL ALEXANDER            19     F     estudiante21@correo.edu.pe     990618462         Ingeniería Electrónica     3
+RODRIGUEZ LIZANO RICHARD                     19     M     estudiante22@correo.edu.pe     977880398         Ingeniería de Sistemas     2
+RODRIGUEZ VALDEZ RODRIGO STEVEN              21     F     estudiante23@correo.edu.pe     974859467          Ingeniería Industrial     5
+ROJAS ESQUIVEL BENJI HANS                    25     M     estudiante24@correo.edu.pe     959550919         Ingeniería Electrónica     9
+ROMERO AGUILAR MAYK SEBASTHIAN               25     F     estudiante25@correo.edu.pe     928823542         Ingeniería de Sistemas     1
+ROSARIO ATO GABRIEL                          21     M     estudiante26@correo.edu.pe     936602703         Ingeniería Electrónica     2
+TARMEÑO SANDOVAL JUAN DIEGO EDUARDO          21     F     estudiante27@correo.edu.pe     935364148          Ingeniería Industrial     1
+TTITO RAMIREZ ALDAIR DANIEL                  18     M     estudiante28@correo.edu.pe     939175311          Ingeniería Industrial     6
+VARGAS SANDOVAL JUAN JESUS                   24     M     estudiante29@correo.edu.pe     958503033          Ingeniería Industrial     6
+VELASQUEZ CACERES HENRY ALDAIR               24     M     estudiante30@correo.edu.pe     931815875         Ingeniería de Sistemas     3
+VELIZ KRUCHINSKY FABRIZZIO FARITH            19     M     estudiante31@correo.edu.pe     922530234         Ingeniería Electrónica     1
+VERGARAY GUTIERREZ DYRON                     25     F     estudiante32@correo.edu.pe     960187960         Ingeniería Electrónica     2
+VICUÑA MONTOYA ALVARO JOSE FRANCISCO         25     M     estudiante33@correo.edu.pe     930518519          Ingeniería Industrial     6
+WONG ALVAREZ FERNANDO DIEGO                  24     F     estudiante34@correo.edu.pe     911242560          Ingeniería Industrial     4
+============================================================================================================================================
